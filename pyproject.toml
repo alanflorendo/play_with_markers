@@ -7,14 +7,8 @@ readme = "README.md"
 packages = [{include = "play_with_markers"}]
 
 [tool.poetry.dependencies]
-python = [
-    { markers = "platform_machine == 'aarch64'", version = "3.11.4"},
-    { markers = "platform_machine != 'aarch64'", version = "3.8.16"}
-    ]
-tensorflow = [
-    { markers = "platform_machine == 'aarch64'", version = "2.12.0"},
-    { markers = "platform_machine != 'aarch64'", version = "2.9.0"}
-    ]
+python = "^3.8"
+tensorflow = "2.9.0"
 
 
 [build-system]
