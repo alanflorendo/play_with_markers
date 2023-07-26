@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "play_with_markers"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.12"
 tensorflow = "2.9.0"
 
 
